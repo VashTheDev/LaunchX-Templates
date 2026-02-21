@@ -1,0 +1,216 @@
+<!-- LaunchX-Template/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LaunchX Nova — the AI operating system for indie hackers and founders. Join the waitlist and be first when we launch.">
+    <title>LaunchX Nova | Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">LaunchX <span class="logo-accent">Nova</span></div>
+
+                <nav class="nav" id="nav">
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="#whats-coming">What’s Coming</a></li>
+                        <li><a href="#why-early">Why Early</a></li>
+                        <li><a href="#testimonials">Founders Waiting</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-ctas">
+                    <a href="#waitlist" class="btn btn-secondary">Log in (beta)</a>
+                    <a href="#waitlist" class="btn btn-primary">Join Waitlist</a>
+                </div>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="launch-badge">Launching April 2026</div>
+                    <h1>Validate faster.<br>Launch sooner.</h1>
+                    <p class="hero-subtitle">LaunchX Nova is the AI operating system that gives indie hackers and founders real-time validation, instant MVPs, and predictive growth tools — all in one beautiful workspace.</p>
+
+                    <form id="waitlist-form" class="waitlist-form">
+                        <input type="email" id="email" placeholder="you@founder.com" required>
+                        <button type="submit" class="btn btn-primary btn-large">Reserve Your Early Spot</button>
+                    </form>
+
+                    <p class="hero-trust">2,847 founders already joined • First 500 get lifetime 40% off</p>
+
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item"><span id="days">00</span><small>days</small></div>
+                        <div class="countdown-item"><span id="hours">00</span><small>hours</small></div>
+                        <div class="countdown-item"><span id="minutes">00</span><small>minutes</small></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <img src="assets/hero-nova.jpg" alt="LaunchX Nova AI dashboard preview — clean interface with growth insights and launch tools" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT’S COMING -->
+    <section id="whats-coming" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What’s Coming</h2>
+                <p class="section-subtitle">The tools every founder wishes they had on day one.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#4A90E2"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                    </div>
+                    <h3>AI Idea Validator</h3>
+                    <p>Instant market-fit scores, competitor gaps, and customer interview scripts before you write a single line of code.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#50E3C2"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3>Instant MVP Builder</h3>
+                    <p>Describe your idea in plain English. Nova builds a fully functional, shareable prototype in under 60 seconds.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#F5A623"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3>Growth Predictor</h3>
+                    <p>AI that forecasts your traction, warns you before churn spikes, and suggests the exact next move to hit product-market fit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY JOIN EARLY -->
+    <section id="why-early" class="section">
+        <div class="container">
+            <div class="why-grid">
+                <div class="why-text">
+                    <h2>Why the smartest founders are joining early</h2>
+                    <ul class="why-list">
+                        <li>Lifetime 40% discount locked in on launch day</li>
+                        <li>Private founder community + monthly AMAs with the Nova team</li>
+                        <li>Direct influence on the roadmap — your feature requests ship first</li>
+                        <li>Exclusive pre-launch workshops and templates</li>
+                    </ul>
+                    <p class="why-closing">Be part of the first wave that actually ships faster because of Nova.</p>
+                </div>
+                <div class="why-visual">
+                    <img src="assets/why-early.jpg" alt="Founders collaborating in LaunchX Nova early access community" class="why-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Founders already on the waitlist</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"The waitlist updates alone have already saved me weeks of research. Can’t wait to get my hands on the real thing."</p>
+                    <div class="author">
+                        <img src="assets/avatar-alex.jpg" alt="Alex Rivera">
+                        <div>
+                            <strong>Alex Rivera</strong><br>
+                            <span>Founder, FlowForge</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Nova’s pre-launch validation tool is scarily accurate. I scrapped a bad idea and pivoted in one afternoon."</p>
+                    <div class="author">
+                        <img src="assets/avatar-priya.jpg" alt="Priya Sharma">
+                        <div>
+                            <strong>Priya Sharma</strong><br>
+                            <span>Indie Hacker @ NotionToProduct</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"The community is pure gold. Already met two co-founders and got my first beta tester."</p>
+                    <div class="author">
+                        <img src="assets/avatar-marcus.jpg" alt="Marcus Chen">
+                        <div>
+                            <strong>Marcus Chen</strong><br>
+                            <span>Building in Public</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="waitlist" class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Don’t launch alone.</h2>
+                <p>Join 2,847 founders getting early access to the AI that makes launching 10× easier.</p>
+                <form id="cta-form" class="waitlist-form cta-form">
+                    <input type="email" placeholder="you@founder.com" required>
+                    <button type="submit" class="btn btn-primary btn-xl">Get Early Access</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">LaunchX <span class="logo-accent">Nova</span></div>
+                    <p>The AI operating system for founders who move fast.</p>
+                </div>
+                <div class="footer-col">
+                    <strong>Product</strong>
+                    <a href="#whats-coming">What’s Coming</a>
+                    <a href="#why-early">Why Early</a>
+                </div>
+                <div class="footer-col">
+                    <strong>Company</strong>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-col">
+                    <strong>Legal</strong>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 LaunchX Nova. A LaunchX Template. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
