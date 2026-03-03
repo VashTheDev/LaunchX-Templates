@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LaunchX Templates – Live Demos</title>
+  <meta name="description" content="Live previews of clean HTML landing page templates by VashTheDev – for SaaS, startups, indie makers."/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    :root {
+      --primary: #4A90E2;
+      --dark: #0F172A;
+      --light: #F8FAFC;
+      --gray: #94A3B8;
+      --card-height: 400px; /* Fixed card height on desktop */
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--dark);
+      color: var(--light);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to bottom, #0F172A, #1E293B);
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: var(--primary);
+    }
+    p.lead {
+      font-size: 1.3rem;
+      color: var(--gray);
+      max-width: 600px;
+      margin: 20px auto 0;
+    }
+    .templates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 32px;
+      margin: 40px 0;
+    }
+    .template-card {
+      background: #1E293B;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      height: var(--card-height);
+      display: flex;
+      flex-direction: row;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    .template-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    }
+    .template-content {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+    }
+    .template-info {
+      flex: 1;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .template-image-container {
+      flex: 0 0 50%;
+      height: 100%;
+      overflow: hidden;
+      background: #0F172A;
+    }
+    .template-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top; /* Start from top, crop bottom if too tall */
+    }
+    .template-info h3 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+      color: #FFFFFF;
+    }
+    .template-info p {
+      margin: 0 0 16px;
+      color: var(--gray);
+      font-size: 1rem;
+      flex-grow: 1;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      align-self: flex-start;
+    }
+    .btn:hover {
+      background: #3B7AC7;
+    }
+    footer {
+      text-align: center;
+      padding: 60px 20px 40px;
+      color: var(--gray);
+      font-size: 0.95rem;
+      border-top: 1px solid #334155;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+      .templates-grid {
+        grid-template-columns: 1fr;
+      }
+      .template-card {
+        flex-direction: column;
+        height: auto;
+        min-height: 420px;
+      }
+      .template-image-container {
+        flex: 0 0 260px;
+        height: 260px;
+      }
+      .template-info {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LaunchX Templates</h1>
+    <p class="lead">Live previews of clean, modern HTML landing pages for SaaS, startups, indie makers and creators.</p>
+  </header>
+
+  <div class="container">
+    <div class="templates-grid">
+      <!-- TaskFlow Card -->
+      <a href="LaunchX TaskFlow/index.html" class="template-card" target="_blank" rel="noopener noreferrer">
+        <div class="template-content">
+          <div class="template-info">
+            <h3>TaskFlow</h3>
+            <p>SaaS / Productivity / Task Management</p>
+            <span class="btn">View Demo</span>
+          </div>
+          <div class="template-image-container">
+            <img src="LaunchX TaskFlow/assets/Cover pic.JPG" alt="TaskFlow Demo" class="template-image">
+          </div>
+        </div>
+      </a>
+
+      <!-- Example for next template (duplicate & edit when adding new ones) -->
+      <!--
+      <a href="ai-tool/index.html" class="template-card" target="_blank" rel="noopener noreferrer">
+        <div class="template-content">
+          <div class="template-info">
+            <h3>AI Tool Landing</h3>
+            <p>AI apps, GPT wrappers, automation</p>
+            <span class="btn">View Demo</span>
+          </div>
+          <div class="template-image-container">
+            <img src="ai-tool/assets/hero.png" alt="AI Tool Demo" class="template-image">
+          </div>
+        </div>
+      </a>
+      -->
+    </div>
+  </div>
+
+<footer>
+  Made by VashTheDev · 
+  <a href="https://vashthedev.carrd.co" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">All Templates & Shop</a> ·
+  Follow <a href="https://x.com/vash_the_dev" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">@VashTheDev</a> for updates
+</footer>
+
+</body>
+</html>
