@@ -10,7 +10,7 @@ No frameworks. Pure vanilla code. Easy to customize with CSS variables.
 
 | # | Template Name              | Niche / Use Case                  | Live Demo Link                                                                 | Gumroad Link (Buy)                                      |
 |---|----------------------------|-----------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
-| 1 | TaskFlow                   | SaaS / Productivity / Task Management | [LaunchX TaskFlow Demo](https://vashthedev.github.io/launchx-taskflow-demo/) | [Buy for $7](https://vashthedev.gumroad.com/l/jzzjjn)   |
+| 1 | TaskFlow                   | SaaS / Productivity / Task Management | [LaunchX TaskFlow Demo](https://vashthedev.github.io/LaunchX-Templates/LaunchX%20TaskFlow/index.html) | [Buy for $7](https://vashthedev.gumroad.com/l/jzzjjn)   |
 
 **More templates added every 3–4 days** — check back often!
 
@@ -38,9 +38,9 @@ No frameworks. Pure vanilla code. Easy to customize with CSS variables.
 
 - All templates: [https://vashthedev.carrd.co](https://vashthedev.carrd.co)  
 - Buy individual templates: Gumroad shop  
-- Follow for updates: [@VashTheDev on X](https://x.com/yourusername)  
-- Questions? DM me on X or email vash@yourdomain.com
+- Follow for updates: [@VashTheDev on X](https://x.com/vash_the_dev)  
+- Questions? DM me on X or email vash26627@gmail.com
 
-Made with ❤️ by VashTheDev – indie maker building tools for makers.
+Made by VashTheDev – indie maker building tools for makers.
 
-Last updated: February 2026
+Last updated: March 2026
