@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse | AI Workflow Automation</title>
+    <meta name="description" content="Automate repetitive tasks, generate content, and gain real-time insights with Synapse — the intelligent AI platform built for modern teams.">
+     <!-- Favicons -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">Synapse</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#why">Why Synapse</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#cta">Get Started</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn-secondary">Log in</button>
+                <button class="btn-primary" onclick="openModal()">Start Free Trial</button>
+            </div>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Intelligent Automation<br>for Your Entire Workflow</h1>
+                <p>Synapse uses advanced AI to automate repetitive tasks, generate content instantly, deliver real-time insights, and connect your tools — so your team can focus on high-impact work.</p>
+                <div class="hero-ctas">
+                    <button class="btn-primary large" onclick="openModal()">Start Free Trial</button>
+                    <button class="btn-secondary large">Watch 2-min Demo</button>
+                </div>
+                <div class="trust-bar">
+                    <p>Trusted by teams at</p>
+                    <div class="trust-logos">
+                        <span>Stripe</span>
+                        <span>Notion</span>
+                        <span>Airbnb</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/hero-synapse-dashboard.png" alt="Synapse AI dashboard showing automated workflows and insights">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Built for real productivity gains</h2>
+                <p>Four core capabilities that transform how teams work every day</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4A90E2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                    </div>
+                    <h3>Smart Automation</h3>
+                    <p>AI agents that learn your processes and handle email sorting, data entry, scheduling, and follow-ups automatically.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#F5A623" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>AI Content Studio</h3>
+                    <p>Generate marketing copy, reports, social posts, and product descriptions in your brand voice in seconds.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#50E3C2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                    </div>
+                    <h3>Real-Time Intelligence</h3>
+                    <p>Turn raw data into clear, actionable recommendations and forecasts without building complex dashboards.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4A90E2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9z"/><path d="M13.73 21a1.94 1.94 0 0 1-3.46 0"/></svg>
+                    </div>
+                    <h3>Seamless Integrations</h3>
+                    <p>Connect instantly with Slack, Gmail, Notion, Google Workspace, Zapier, and 50+ other tools you already use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why" class="why">
+        <div class="container why-grid">
+            <div class="why-content">
+                <h2>Why modern teams choose Synapse</h2>
+                <p>Built from the ground up for founders, marketers, and operations leads who want powerful AI without the complexity.</p>
+                <ul class="why-list">
+                    <li>Trained on real workflows — not generic templates</li>
+                    <li>Enterprise-grade security and data privacy</li>
+                    <li>Zero setup time — start automating in minutes</li>
+                    <li>Transparent pricing with no hidden fees</li>
+                </ul>
+                <button class="btn-primary" onclick="openModal()">Get Started Free</button>
+            </div>
+            <div class="why-visual">
+                <img src="assets/why-synapse-illustration.png" alt="Synapse interface showing connected AI workflows">
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real results from real teams</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card active">
+                    <p>“Synapse cut our weekly reporting time from 12 hours to 45 minutes. The AI insights actually feel like they understand our business.”</p>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-sarah.jpg" alt="Sarah Chen">
+                        <div>
+                            <strong>Sarah Chen</strong>
+                            <span>Founder &amp; CEO, Verve Labs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>“The content studio alone replaced two full-time writers. We now publish 3× more while keeping our brand voice perfect.”</p>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-michael.jpg" alt="Michael Torres">
+                        <div>
+                            <strong>Michael Torres</strong>
+                            <span>Head of Marketing, Pulse</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>“Automations and integrations work out of the box. Our ops team finally has visibility without endless meetings.”</p>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-priya.jpg" alt="Priya Patel">
+                        <div>
+                            <strong>Priya Patel</strong>
+                            <span>Operations Lead, Arc Collective</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button onclick="prevSlide()" aria-label="Previous testimonial">←</button>
+                <button onclick="nextSlide()" aria-label="Next testimonial">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="cta" class="final-cta">
+        <div class="container">
+            <h2>Let AI handle the busywork.<br>Start building smarter workflows today.</h2>
+            <button class="btn-primary large" onclick="openModal()">Start Free Trial — No Credit Card Required</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo">
+                    <span class="logo-text">Synapse</span>
+                </div>
+                <p>AI-powered workflow automation by LaunchX.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="#">Integrations</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="footer-col newsletter">
+                <h4>Stay in the loop</h4>
+                <p>Get product updates and AI tips.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="you@company.com">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 LaunchX Synapse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- TRIAL MODAL -->
+    <div id="trial-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">×</span>
+            <h3>Start your free trial</h3>
+            <p>No credit card required. Full access for 14 days.</p>
+            <form id="trial-form">
+                <input type="text" placeholder="Full name" required>
+                <input type="email" placeholder="Work email" required>
+                <input type="text" placeholder="Company" required>
+                <button type="submit" class="btn-primary">Create Free Account</button>
+            </form>
+            <p class="modal-note">You’ll receive a magic link to log in instantly.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
