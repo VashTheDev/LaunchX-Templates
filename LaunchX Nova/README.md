@@ -42,7 +42,6 @@ assets/
 ├── android-chrome-192x192.png
 ├── android-chrome-512x512.png
 └── site.webmanifest
-text---
 
 ### Important Notes
 
@@ -62,7 +61,6 @@ If you need help customizing the template, changing colors, adding new sections,
 
 I usually reply within a few hours.
 
----
 
 **Made as part of the LaunchX Template System**  
 Designed to help founders and creators launch faster and look premium.
