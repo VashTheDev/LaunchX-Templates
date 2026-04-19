@@ -205,6 +205,7 @@ body {
     font-size: 0.9rem;
 }
 
+/* Desktop */
 @media (min-width: 768px) {
     .hero-grid {
         grid-template-columns: 1fr 1.1fr;
@@ -225,6 +226,7 @@ body {
     }
 }
 
+/* Mobile Menu */
 @media (max-width: 767px) {
     .hamburger {
         display: block;
@@ -244,13 +246,5 @@ body {
 
     .nav-links.active {
         display: flex;
-    }
-
-    .hero {
-        padding: 60px 0 50px;
-    }
-
-    .section {
-        padding: 70px 0;
     }
 }
